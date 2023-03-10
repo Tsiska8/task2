@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+   }
+
+   @font-face {
+    font-family:'Poppins';
+    src: url(../fonts/Poppins-Black.ttf);}
+
+    @font-face {
+        font-family:'Roboto';
+        src: url(../fonts/Roboto-Light.ttf);}
+
+body{
+    background:#F9D423;
+}
+
+.btn{
+    width: 402px;
+    height: 60px;
+    border: 2px solid #1B1B1B;
+    border-radius: 100px;
+}
+
+.box-pattern{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    z-index: 1;
+}
