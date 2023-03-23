@@ -8,7 +8,7 @@
 
     @font-face {
         font-family:'Roboto';
-        src: url(../fonts/Roboto-Black.ttf);}
+        src: url(../fonts/Roboto-Regular.ttf);}
 
 body{
     background:#F9D423;
@@ -25,6 +25,7 @@ body{
 }
 
 .box-buy{
+    margin-inline: auto;
     display: flex;
     justify-content: center;
     width: 520px !important;
