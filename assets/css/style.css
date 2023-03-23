@@ -12,11 +12,27 @@
 
 body{
     background:#F9D423;
-    overflow-x: hidden;
+    
 }
 
 .btn{
-    height:60px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    color: #1B1B1B;
+}
+
+.box-buy{
+    display: flex;
+    justify-content: center;
+    width: 520px !important;
+    height:60px !important;
     border: 2px solid #1B1B1B;
     border-radius: 100px;
+}
+
+.footer{
+    width: 100%;
 }
